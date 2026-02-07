@@ -52,6 +52,7 @@ it('checkboxes', () => {
     cy.get('[type="checkbox"]').first().should('be.checked')
     cy.get('[type="checkbox"]').check({force: true})
     cy.get('[type="checkbox"]').should('be.checked')
+    
 
 })
 
